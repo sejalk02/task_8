@@ -1,0 +1,358 @@
+
+*{
+    margin: 15px;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 4px 450px;
+    top: 30px;
+    
+}
+li{
+    display:inline;
+    color: rgb(139, 132, 132);
+}
+h2{
+    text-align:left;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    margin: 20px;
+    padding: 0vw 10vh;
+    color: rgb(46, 43, 43);
+    font-size: 30px;
+
+}
+.button{
+    background-color: rgb(176, 213, 226);
+    border:none;
+    color: rgb(6, 163, 215);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    padding: 2vw 5vh;
+
+}
+.button1{border-radius:15px;}
+h1{
+    font-size: 50px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    font-family:sans-serif;
+    color: rgb(45, 45, 45);
+}
+p{
+    position: absolute;
+    left: 150px;
+    top: 330px;
+    font-family: Sans-serif;
+    color: rgb(144, 144, 144);
+
+}
+
+
+.btn{
+    background-color:rgb(6, 163, 215);
+    border:none;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 160px;
+    top: 420px;
+    padding: 2vw 10vh;
+}
+.btn1{border-radius:12px;}
+.btn{
+    transition:all 0.4s; 
+}
+.btn:hover{
+    transform: rotate(-10deg) scale(1.3);
+
+
+}
+
+.img{
+    width: 500px;
+    height: 520px;
+    position: absolute;
+    right: 150px;
+    top: 90px;
+}
+.text{
+    color: rgb(6, 163, 215);
+}
+/* @media  (max-width:1024px){
+
+    ul{
+        list-style: none;
+        text-align: center;
+        right: 100px;
+    
+
+    }
+    li{
+        display:inline;
+        right: 100px;
+    }
+    h2{
+        position: absolute;
+        display: flex;
+        text-align:left;
+        left: 10px;
+        top: 5px;
+        margin: 4px 10px;
+        padding: 2vw 3vh;
+        font-size: 30px;
+    }
+    .button{
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display:flex;
+        font-size: 16px;
+        margin: 4px 2px;
+        position: absolute;
+        right: 80px;
+        top: 20px;
+        padding: 2vw 0vh;
+    
+    }
+    .button1{
+        border-radius:10px;
+    }
+    h1{
+        font-size: 30px;
+        position: absolute;
+        left: 5px;
+        top: 110px;
+        
+}
+p{
+    position: absolute;
+    left: 20px;
+    top: 230px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding:0px 1px;
+    width: 35px;
+    height: 10px;
+}
+.btn{
+    padding: 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    position: absolute;
+    left: 10px;
+    top: 410px;
+    padding: 3vw 3vh;
+}
+.btn1{
+    border-radius:12px;
+}
+
+
+.img{
+    width: 380px;
+    height: 350px;
+    position: absolute;
+    right: 90px;
+    top: 130px;
+    flex-direction: column;
+}
+} */
+
+
+@media (max-width:747px) {
+
+    
+    h2{
+       font-size: 50px;
+       text-align: left;
+       font-weight: bold;
+       top: 5px;
+       position: absolute;
+       left: 10px;
+       margin: 15px;
+       padding: 0px 3px;
+        
+    }
+    .button{
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display:flex;
+        font-size: 16px;
+        margin: 0px 2px;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        padding: 4vw 2vh;
+    
+    }
+    .button1{
+        border-radius:10px;
+    }
+    ul{
+        
+        display: none;
+    }
+    li{
+        display: inline;
+    }
+   
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+   padding: 0px 1px;
+   width: 130%;
+    height: 10px;
+
+    
+}
+p{
+    position: absolute;
+    left: 10px;
+    top: 250px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding:0px 1px;
+    width: 130%;
+    height: 10px;
+}
+.btn{
+    padding: 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 1px;
+    position: absolute;
+    left: 10px;
+    top: 320px;
+    padding: 7vw 9vh;
+}
+.btn1{
+    border-radius:25px;
+}
+.img{
+    width: 300px;
+    height: 320px;
+    position: absolute;
+    right: 10px;
+    top: 420px;
+    flex-direction: column;
+}
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    --color1:#181818;
+    --color2:#fff;
+    --color3:#181818;
+    --color4:gray;
+
+}
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position:relative;
+    background-color: var(--color2);
+    padding: 12px 20px;
+}
+.menu{display: flex;}
+.menu li {padding-left: 30px;}
+.menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color4);
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+}
+.menu li a::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: var(--color2);
+        transition: 0.15s ease-in-out;
+}
+.menu li a:hover:after {width:100%;}
+.open-menu , .close-menu {
+    position: absolute;
+    color: var(--color1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+.close-menu{
+    position: absolute;
+    color: var(--color2);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+.open-menu {
+    top:50%;
+    right:430px;
+    transform: translateY(-50%);
+}
+.close-menu{
+    top: 50px;
+    right: 80px;
+}
+#check {display: none;}
+@media(max-width: 747px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right:-100%;
+    z-index: 100;
+    background-color: var(--color3);
+    transition: all 0.2s ease-in-out;
+    }
+    .menu li {margin-top: 40px;}
+    .menu li a{padding: 10px;}
+    .open-menu , .close-menu {display: block;}
+    #check:checked ~ .menu {right: 0;}
+    
+}
+
+
+  
